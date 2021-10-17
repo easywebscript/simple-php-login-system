@@ -14,7 +14,7 @@ create table `users` (
 	`updated_at` datetime 
 ); 
 insert into `users` (`id`, `username`, `password`, `login_at`, `created_at`, `updated_at`) values('1','admin','admin','2021-05-01 01:49:15','2021-04-28 00:55:07','2021-05-01 01:49:15');
-insert into `users` (`id`, `username`, `password`, `login_at`, `created_at`, `updated_at`) values('2','technogenius','123456','2021-04-28 07:49:18','2021-04-28 00:55:07','2021-05-01 01:49:46');
+insert into `users` (`id`, `username`, `password`, `login_at`, `created_at`, `updated_at`) values('2','easywebscript','123456','2021-04-28 07:49:18','2021-04-28 00:55:07','2021-05-01 01:49:46');
 
 ALTER TABLE `users`   
   CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT, 
