@@ -9,7 +9,7 @@ if(isset($_SESSION['user_login']) && !empty($_SESSION['user_login']['logged_in']
   echo "<br>";
   echo "Hello, " . $_SESSION['user_login']['login_data']->username;
   echo "<br>";
-  echo 'To Logout Please <a href="http://localhost:8181/TechnoGenius/login-system/logout.php">Click Here</a>';
+  echo 'To Logout Please <a href="http://localhost/simple-php-login-system/logout.php">Click Here</a>';
 
 
 } else {
